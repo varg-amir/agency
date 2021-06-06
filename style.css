@@ -1,0 +1,115 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* color: #ffc800 */
+
+/* NAVBAR */
+.logo{
+  
+  width: 190px;
+}
+
+.menu-btn{
+  font-size: 1rem !important;
+}
+
+/* Hero Section */
+
+.hero-sec {
+  height: 46.5rem;
+  background-image: url("/img/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+
+
+.hero-box {
+  z-index: 2;
+}
+
+.hero-text {
+  font-size: 4.5rem;
+}
+
+.hero-btn{
+  background-color: #ffc800 !important;
+}
+
+/* Service Section */
+
+.service-icon {
+  font-size: 4rem ;
+  background-color: #ffc800;
+  color: white;
+  width: 8rem;
+ height: 8rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.service-sec{
+  padding: 6rem 0;
+}
+
+/* portfolio section */
+
+.portfolio-sec{
+  background-color: #f8f9fa;
+}
+
+.portfolio-sec{
+  padding: 6rem 0;
+}
+
+.timeline-img{
+  border: 7px solid #e9ecef;
+}
+
+.timeline-text{
+  border: 7px solid #e9ecef;
+  background-color: #ffc800;
+}
+
+/* TEAM SECTION */
+
+.team-img{
+  max-width: 14rem;
+  border-radius: 50%;
+  border: 7px solid #e9ecef;
+}
+
+.team-sec{
+  background-color: #f8f9fa;
+}
+.outer-ico {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* contacts section */
+
+.contacts-sec{
+  background-color: black;
+  background-image: url('./img/map-image.png');
+  background-size: cover;
+}
+
+.contact-btn{
+  opacity: 0.5;
+}
